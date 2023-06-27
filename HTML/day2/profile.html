@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+<style>
+    .container{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 75vh;
+    }
+
+/* body{
+    background-color: #c3dbff;
+} */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#imglogo{
+    width: 75px;
+    height: 75px;
+}
+
+.navitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+    
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.navbar li a:hover{
+    color: #418DFF;
+    background-color: #c3dbff;
+
+}
+
+#profile{
+    margin-left: 20px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 8px;
+    background-color: #c3dbff;
+}
+</style>
+</head>
+<body>
+
+    <div class="navitems">
+        <img id="imglogo" src="./assets/blue_icon.png" style="height: 50; width: 50;"/>
+        <ul class="navbar">
+            <li id="home"><a href="./home.html">Home</a></li>
+            <li><a href="./favorites.html">Favorite</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./documentation.html">Documentation</a></li>
+            <li><a id="profile" href="./profile.html">Profile</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1 style="font-size: 64px; color: #418DFF;">Profile Page</h1>
+    </div>
+</body>
+</html>
